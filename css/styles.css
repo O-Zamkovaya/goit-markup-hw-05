@@ -606,6 +606,8 @@ a {
   fill: #f4f4fd;
 }
 
+/* -------modal-------- */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -679,4 +681,29 @@ a {
   text-align: center;
   color: #2e2f42;
   padding-top: 72px;
+}
+
+.modal-field {
+  margin-bottom: 8px;
+}
+
+.modal-input-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-input {
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.modal-input-icon {
+  position: absolute;
 }
