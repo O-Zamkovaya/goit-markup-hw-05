@@ -756,6 +756,10 @@ a {
   resize: none;
 }
 
+.modal-textarea:focus {
+  border-color: #4d5ae5;
+}
+
 .modal-field-textarea {
   margin-bottom: 16px;
 }
