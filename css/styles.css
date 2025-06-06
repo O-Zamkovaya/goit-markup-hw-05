@@ -626,14 +626,14 @@ a {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -676,6 +676,7 @@ a {
 .button-cloze:hover,
 .button-cloze:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-icon-cloze {
@@ -798,7 +799,6 @@ a {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
